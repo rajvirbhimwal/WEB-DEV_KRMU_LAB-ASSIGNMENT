@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fashionista — Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="logo">F</div>
+        <h2>Fashion PLatform</h2>
+      </div>
+      <div class="search">
+        <input type="search" placeholder="Search for jackets, dresses, sneakers..." aria-label="Search products">
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn">🛍️ Cart</button>
+        <a href="#login" class="login">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-overlay">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1>Seasonal Edit — Up to 50% off select styles</h1>
+          <p>Discover the curated collection for the season: contemporary cuts, bold colors, and effortless staples.
+            Free shipping on orders over $50.</p>
+          <div class="cta">
+            <button class="btn btn-primary">Shop Women's</button>
+            <button class="btn btn-ghost">Explore Men's</button>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true"
+          style="flex:1;min-height:220px;display:flex;align-items:center;justify-content:center">
+          <!-- Decorative area; image already in background -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="flash">
+    <div class="left">
+      <span class="badge">Flash Sale</span>
+      <div>Selected items — extra 20% with code <strong>FLASH20</strong></div>
+    </div>
+    <div class="countdown">Ends in: 06h : 34m : 12s</div>
+  </div>
+
+  <main class="container">
+
+    <div class="layout">
+      <aside class="filters">
+        <h3>Filters</h3>
+        <div class="filter-group">
+          <div style="font-weight:700;margin-bottom:6px">Category</div>
+          <label><input class="checkbox" type="checkbox"> Women</label>
+          <label><input class="checkbox" type="checkbox"> Men</label>
+          <label><input class="checkbox" type="checkbox"> Accessories</label>
+        </div>
+        <div class="filter-group">
+          <div style="font-weight:700;margin-bottom:6px">Price</div>
+          <label><input class="checkbox" type="checkbox"> Under $50</label>
+          <label><input class="checkbox" type="checkbox"> $50 - $150</label>
+          <label><input class="checkbox" type="checkbox"> $150+</label>
+        </div>
+        <div class="filter-group">
+          <div style="font-weight:700;margin-bottom:6px">Color</div>
+          <div class="color-swatch">
+            <div class="sw" style="background:#111827"></div>
+            <div class="sw" style="background:#ef4444"></div>
+            <div class="sw" style="background:#f59e0b"></div>
+            <div class="sw" style="background:#10b981"></div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="main-content">
+
+        <section class="categories" aria-label="Featured categories">
+          <div class="cat">
+            <img src="22cb3357eb10a2f7060d9d559554824f.jpg" alt="Women category">
+            <div class="label">Women</div>
+          </div>
+          <div class="cat">
+            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=60"
+              alt="Men category">
+            <div class="label">Men</div>
+          </div>
+          <div class="cat">
+            <img src="360_F_110243449_7SHALLFfuzJq2j33dsfRWTElxxKOag9Y.jpg" alt="Accessories">
+            <div class="label">Accessories</div>
+          </div>
+        </section>
+
+        <div class="section-title">
+          <h3>Trending Products</h3>
+          <a href="#">View all</a>
+        </div>
+
+        <section class="products" aria-label="Product list">
+          <!-- repeat product card -->
+          <article class="card">
+            <img src="WWA082_OATWHT.jpg" alt="Product 1">
+            <div class="title">Oversized Linen Blazer</div>
+            <div class="meta">
+              <div class="price">$89</div>
+              <div class="rating">⭐⭐⭐⭐☆</div>
+            </div>
+            <button class="add">Add to cart</button>
+          </article>
+
+          <article class="card">
+            <img src="CSMAWSR365_7.webp" alt="Product 2">
+            <div class="title">Textured Knit Sweater</div>
+            <div class="meta">
+              <div class="price">$64</div>
+              <div class="rating">⭐⭐⭐⭐☆</div>
+            </div>
+            <button class="add">Add to cart</button>
+          </article>
+
+          <article class="card">
+            <img src="-1117Wx1400H-701314346-white-MODEL.avif" alt="Product 3">
+            <div class="title">Classic White Sneakers</div>
+            <div class="meta">
+              <div class="price">$120</div>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+            <button class="add">Add to cart</button>
+          </article>
+
+          <article class="card">
+            <img src="a4971e5c73bd8841ee524feb22404191_original.avif" alt="Product 4">
+            <div class="title">Minimal Leather Bag</div>
+            <div class="meta">
+              <div class="price">$149</div>
+              <div class="rating">⭐⭐⭐⭐☆</div>
+            </div>
+            <button class="add">Add to cart</button>
+          </article>
+
+          <article class="card">
+            <img src="Bonkerscorner_moonstone_trouser_5_25a75beb-930e-498b-aec7-b059093dabaa.webp" alt="Product 5">
+            <div class="title">Tailored Trousers</div>
+            <div class="meta">
+              <div class="price">$79</div>
+              <div class="rating">⭐⭐⭐⭐☆</div>
+            </div>
+            <button class="add">Add to cart</button>
+          </article>
+
+          <article class="card">
+            <img src="rsz_tamara-bellis-d7CK4t8Lz6s-unsplash_2_895x_1aafa49f-f66e-4b70-8304-5a7a305c98fd.webp"
+              alt="Product 6">
+            <div class="title">Statement Sunglasses</div>
+            <div class="meta">
+              <div class="price">$49</div>
+              <div class="rating">⭐⭐⭐☆☆</div>
+            </div>
+            <button class="add">Add to cart</button>
+          </article>
+
+        </section>
+
+        <div class="section-title">
+          <h3>Best Sellers</h3>
+          <a href="#">See more</a>
+        </div>
+
+        <section class="best-grid" aria-label="Best sellers">
+          <div class="card"><img
+              src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=60"
+              alt="Best 1">
+            <div class="title">Silk Scarf</div>
+            <div class="meta">
+              <div class="price">$39</div>
+            </div>
+          </div>
+          <div class="card"><img src="m-1-no-jakt-denim-mblue-01-urbano-fashion-original-imahgbeyzzd9wtym.webp"
+              alt="Best 2">
+            <div class="title">Denim Jacket</div>
+            <div class="meta">
+              <div class="price">$99</div>
+            </div>
+          </div>
+          <div class="card"><img src="67161dbd216f3338fa368369-bankeng-women-winter-wool-blend-camel.jpg" alt="Best 3">
+            <div class="title">Wool Coat</div>
+            <div class="meta">
+              <div class="price">$199</div>
+            </div>
+          </div>
+          <div class="card"><img src="1024x1024-Mens-RacerJacket-BlackMatte-011624-1.webp" alt="Best 4">
+            <div class="title">Leather Jacket</div>
+            <div class="meta">
+              <div class="price">$29</div>
+            </div>
+          </div>
+        </section>
+
+        <div style="height:28px"></div>
+
+        <section class="testimonials">
+          <div class="test">
+            <div style="display:flex;align-items:center"><img class="avatar"
+                src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer">
+              <div><strong>Priya K.</strong>
+                <div style="font-size:13px;color:var(--muted)">Verified buyer</div>
+              </div>
+            </div>
+            <p class="quote">"Quality and fit were perfect — fast delivery and the packaging felt premium. Will shop
+              again."</p>
+          </div>
+
+          <div class="test">
+            <div style="display:flex;align-items:center"><img class="avatar"
+                src="https://randomuser.me/api/portraits/men/45.jpg" alt="Customer">
+              <div><strong>Arjun S.</strong>
+                <div style="font-size:13px;color:var(--muted)">Verified buyer</div>
+              </div>
+            </div>
+            <p class="quote">"Loved the selection — the leather bag exceeded expectations. Customer support was
+              helpful."</p>
+          </div>
+
+          <div class="test">
+            <div style="display:flex;align-items:center"><img class="avatar"
+                src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer">
+              <div><strong>Meera P.</strong>
+                <div style="font-size:13px;color:var(--muted)">Verified buyer</div>
+              </div>
+            </div>
+            <p class="quote">"Beautiful fabrics and accurate sizing. The flash sale was an excellent find."</p>
+          </div>
+        </section>
+
+        <div style="height:20px"></div>
+
+        <section class="newsletter">
+          <div style="flex:1">
+            <h3>Join the Fashion Platform Newsletter</h3>
+            <div style="color:var(--muted)">Be the first to know about new drops, exclusive sales, and styling tips.
+            </div>
+          </div>
+          <form action="#" method="post" onsubmit="return false;">
+            <input type="email" placeholder="Enter your email" aria-label="Email address">
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </form>
+        </section>
+
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <h4>Fashion Platform</h4>
+          <p style="color:var(--muted)">A new are of fashion begins from the core and this is your core.</p>
+        </div>
+        <div>
+          <h5>Shop</h5>
+          <ul style="list-style:none;padding:0;margin:0;color:var(--muted)">
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <ul style="list-style:none;padding:0;margin:0;color:var(--muted)">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Follow</h5>
+          <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+            <a href="#">Flipcart</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</body>
+
+</html>
