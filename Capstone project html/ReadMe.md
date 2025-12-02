@@ -2,6 +2,7 @@ Fashion Platform (HTML & CSS)
 
 Repository: fashionista-capstone
 Type: Capstone project — Static front-end (HTML, CSS, minimal JS for interactivity if needed)
+
 Author: Rajvir Bhimwal
 Date: 27/11/2025
 
